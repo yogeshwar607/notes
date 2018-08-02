@@ -100,19 +100,15 @@
       {Growth Hacker - Technology Architecture and Design}{Sep 2017 - Present}
       
       { Responsible for designing and developing Cross border Remittance platform from scratch. System includes below core modules: }
-      \resumeItemListStart
-        \resumeItem{Payment Processing Engine}
-          { Integrated RabbitMQ and Redis for faster and sequential processing of payments even under
-distributed environment across multiple payment gateways.}
-        \resumeItem{KYC Engine}
-          {Automates KYC for various corridors for fast customer on boarding, integrated with Jumio for Document/FaceMatch verification and Trulioo for  verification.}
-        \resumeItem{Compliance Engine}
-        {Built multi level compliance check triggers integrated in database level, integrated with Worldcheck for global watchlist compliance check.}
-        \resumeItem{Service Discovery}
-        {Developed in-house service discovery bus using rabbitMQ to decouple various microservices.}
-        \resumeItem{Distributed Logging}
-        {Used ELK stack for log aggregation and faster searching of logs}
-      \resumeItemListEnd
+     
+      { Payment Processing Engine - Integrated RabbitMQ and Redis for faster and sequential processing of payments even under distributed environment across multiple payment gateways.}
+ 
+      {KYC Engine - Automates KYC for various corridors for fast customer on boarding, integrated with Jumio for Document/FaceMatch verification and Trulioo for  verification.}
+      
+      {Compliance Engine - Built multi level compliance check triggers integrated in database level, integrated with Worldcheck for global watchlist compliance check.}
+       
+     {Distributed Logging - Used ELK stack for log aggregation and faster searching of logs}
+     
 
     \resumeSubheading
       {InstaReM}{Mumbai, India}
@@ -143,13 +139,12 @@ distributed environment across multiple payment gateways.}
 %-----------PROJECTS-----------------
 \section{Projects}
   \resumeSubHeadingListStart
-    \resumeSubItem{Docauth Dapp}
-      {Document Authorization on the Ethereum Blockchain}
-    \resumeSubItem{Arbitrage bot}
+    \resumeSubItem{Docauth DApp}
+      {Document Authorization on the Ethereum Blockchain.}
+    \resumeSubItem{Arbitrage Bot}
       {Cryptocurrency arbitrage bot which checks and detects arbitrage opportunities, and place orders when a profit can be made.}
-    \resumeSubItem{Ico Dapp}
+    \resumeSubItem{ICO DApp}
       {Built under 36hrs E&Y hackathon using solidity/MEAN stack and deployed on Azure private Ethereum cloud with number of mining nodes equal to number of participating agents.}
-   
   \resumeSubHeadingListEnd
 
 %
